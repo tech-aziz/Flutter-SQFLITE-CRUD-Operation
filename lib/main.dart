@@ -155,6 +155,10 @@ class _HomePageState extends State<HomePage> {
         itemCount: _journals.length,
         itemBuilder: ((context, index) {
           return Card(
+            shape: RoundedRectangleBorder(
+              side: BorderSide(color: Colors.green.shade50, width: 2),
+              borderRadius: BorderRadius.circular(15)
+            ),
             elevation: 15,
             child: ListTile(
                 title: Text(_journals[index]['title']),
