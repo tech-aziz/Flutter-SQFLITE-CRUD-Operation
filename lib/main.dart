@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
         title: Text(
           'Personal Todo',
-          style: TextStyle(color: Colors.green),
+          style: TextStyle(color: Colors.green, fontSize: 25,fontWeight: FontWeight.bold),
         ),
         actions: [
           Padding(
